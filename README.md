@@ -7,7 +7,6 @@ algorithm's complexity class statistically**. It then checks the inferred class 
 The interesting results come from changing the *input*: the same algorithm can be O(n), O(n log n) or O(n²) depending on
 what you feed it, and AlgoLens shows exactly where and why.
 
-![Complexity fingerprint](results/fingerprint.png)
 
 *Each cell: inferred complexity class and empirical exponent for one algorithm on one kind of input.*
 
@@ -49,7 +48,6 @@ What stands out:
   to 8 distinct values need one pass, so O(n). An early version of this project's theory table got that wrong, and the
   measurement corrected it.
 
-![Same algorithm, different input](results/input_sensitivity.png)
 
 ### Searching (average comparisons per query)
 
