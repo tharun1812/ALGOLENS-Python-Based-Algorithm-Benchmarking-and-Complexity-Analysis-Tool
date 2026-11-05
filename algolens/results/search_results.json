@@ -1,0 +1,54 @@
+{
+  "classification": [
+    {
+      "algorithm": "linear",
+      "measured": "O(n)",
+      "exponent": 1.001,
+      "r2": 0.9999,
+      "textbook": "O(n)",
+      "match": true,
+      "comparisons_at_largest_n": 12034.7,
+      "largest_n": 16384
+    },
+    {
+      "algorithm": "binary",
+      "measured": "O(log n)",
+      "exponent": 0.11,
+      "r2": 0.9905,
+      "textbook": "O(log n)",
+      "match": true,
+      "comparisons_at_largest_n": 18.0,
+      "largest_n": 131072
+    },
+    {
+      "algorithm": "exponential",
+      "measured": "O(log n)",
+      "exponent": 0.123,
+      "r2": 0.9856,
+      "textbook": "O(log n)",
+      "match": true,
+      "comparisons_at_largest_n": 32.1,
+      "largest_n": 131072
+    },
+    {
+      "algorithm": "jump",
+      "measured": "O(sqrt n)",
+      "exponent": 0.491,
+      "r2": 0.9982,
+      "textbook": "O(sqrt n)",
+      "match": true,
+      "comparisons_at_largest_n": 538.5,
+      "largest_n": 131072
+    },
+    {
+      "algorithm": "interpolation",
+      "measured": "O(log log n)",
+      "exponent": 0.05,
+      "r2": 0.706,
+      "textbook": "O(log log n)",
+      "match": true,
+      "comparisons_at_largest_n": 16.7,
+      "largest_n": 131072
+    }
+  ]
+}

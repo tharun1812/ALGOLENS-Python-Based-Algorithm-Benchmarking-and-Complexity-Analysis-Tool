@@ -1,0 +1,554 @@
+{
+  "classification": [
+    {
+      "algorithm": "bubble",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "bubble",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.01,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "bubble",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "bubble",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.14,
+      "r2": 0.9983,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "bubble",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "insertion",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.0,
+      "r2": 0.9998,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "insertion",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.01,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "insertion",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "insertion",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 1.94,
+      "r2": 0.9997,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "insertion",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 1.99,
+      "r2": 0.9998,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "selection",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "selection",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "selection",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "selection",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "selection",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "quick_naive",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.26,
+      "r2": 0.9997,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_naive",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 2.01,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_naive",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 1.99,
+      "r2": 1.0,
+      "textbook": "O(n^2)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_naive",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.28,
+      "r2": 0.9873,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "quick_naive",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n^2)",
+      "exponent": 1.81,
+      "r2": 0.9986,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "shell",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.22,
+      "r2": 0.9994,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "shell",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.2,
+      "r2": 0.9995,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "shell",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.18,
+      "r2": 0.9996,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "shell",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.26,
+      "r2": 0.9987,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "shell",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.16,
+      "r2": 0.9997,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "merge",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.18,
+      "r2": 0.9996,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "merge",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.16,
+      "r2": 0.9998,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "merge",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.15,
+      "r2": 0.9998,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "merge",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.22,
+      "r2": 0.9992,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "merge",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.18,
+      "r2": 0.9996,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "quick_median3",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9999,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_median3",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9999,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_median3",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9999,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "quick_median3",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9998,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "quick_median3",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.11,
+      "r2": 0.9999,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "heap",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.19,
+      "r2": 0.9995,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "heap",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.19,
+      "r2": 0.9995,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "heap",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.2,
+      "r2": 0.9995,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "heap",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.19,
+      "r2": 0.9995,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "heap",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.18,
+      "r2": 0.9997,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "timsort",
+      "distribution": "random",
+      "metric": "comparisons",
+      "measured": "O(n log n)",
+      "exponent": 1.18,
+      "r2": 0.9996,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "timsort",
+      "distribution": "sorted",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "timsort",
+      "distribution": "reversed",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 0.9995,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "timsort",
+      "distribution": "nearly_sorted",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.08,
+      "r2": 0.999,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "timsort",
+      "distribution": "few_unique",
+      "metric": "comparisons",
+      "measured": "O(n)",
+      "exponent": 1.07,
+      "r2": 0.9989,
+      "textbook": "",
+      "match": null
+    },
+    {
+      "algorithm": "counting",
+      "distribution": "random",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "counting",
+      "distribution": "sorted",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "counting",
+      "distribution": "reversed",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "counting",
+      "distribution": "nearly_sorted",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "counting",
+      "distribution": "few_unique",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    },
+    {
+      "algorithm": "radix",
+      "distribution": "random",
+      "metric": "writes",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9968,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "radix",
+      "distribution": "sorted",
+      "metric": "writes",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9968,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "radix",
+      "distribution": "reversed",
+      "metric": "writes",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9968,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "radix",
+      "distribution": "nearly_sorted",
+      "metric": "writes",
+      "measured": "O(n log n)",
+      "exponent": 1.12,
+      "r2": 0.9968,
+      "textbook": "O(n log n)",
+      "match": true
+    },
+    {
+      "algorithm": "radix",
+      "distribution": "few_unique",
+      "metric": "writes",
+      "measured": "O(n)",
+      "exponent": 1.0,
+      "r2": 1.0,
+      "textbook": "O(n)",
+      "match": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+algorithm,measured,exponent,r2,textbook,match,comparisons_at_largest_n,largest_n
+linear,O(n),1.001,0.9999,O(n),True,12034.7,16384
+binary,O(log n),0.11,0.9905,O(log n),True,18.0,131072
+exponential,O(log n),0.123,0.9856,O(log n),True,32.1,131072
+jump,O(sqrt n),0.491,0.9982,O(sqrt n),True,538.5,131072
+interpolation,O(log log n),0.05,0.706,O(log log n),True,16.7,131072

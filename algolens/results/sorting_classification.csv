@@ -1,0 +1,56 @@
+algorithm,distribution,metric,measured,exponent,r2,textbook,match
+bubble,random,comparisons,O(n^2),2.01,1.0,O(n^2),True
+bubble,sorted,comparisons,O(n),1.01,1.0,O(n),True
+bubble,reversed,comparisons,O(n^2),2.01,1.0,O(n^2),True
+bubble,nearly_sorted,comparisons,O(n^2),2.14,0.9983,,
+bubble,few_unique,comparisons,O(n^2),2.01,1.0,,
+insertion,random,comparisons,O(n^2),2.0,0.9998,O(n^2),True
+insertion,sorted,comparisons,O(n),1.01,1.0,O(n),True
+insertion,reversed,comparisons,O(n^2),2.01,1.0,O(n^2),True
+insertion,nearly_sorted,comparisons,O(n^2),1.94,0.9997,,
+insertion,few_unique,comparisons,O(n^2),1.99,0.9998,,
+selection,random,comparisons,O(n^2),2.01,1.0,O(n^2),True
+selection,sorted,comparisons,O(n^2),2.01,1.0,O(n^2),True
+selection,reversed,comparisons,O(n^2),2.01,1.0,O(n^2),True
+selection,nearly_sorted,comparisons,O(n^2),2.01,1.0,,
+selection,few_unique,comparisons,O(n^2),2.01,1.0,,
+quick_naive,random,comparisons,O(n log n),1.26,0.9997,O(n log n),True
+quick_naive,sorted,comparisons,O(n^2),2.01,1.0,O(n^2),True
+quick_naive,reversed,comparisons,O(n^2),1.99,1.0,O(n^2),True
+quick_naive,nearly_sorted,comparisons,O(n log n),1.28,0.9873,,
+quick_naive,few_unique,comparisons,O(n^2),1.81,0.9986,,
+shell,random,comparisons,O(n log n),1.22,0.9994,,
+shell,sorted,comparisons,O(n log n),1.2,0.9995,,
+shell,reversed,comparisons,O(n log n),1.18,0.9996,,
+shell,nearly_sorted,comparisons,O(n log n),1.26,0.9987,,
+shell,few_unique,comparisons,O(n log n),1.16,0.9997,,
+merge,random,comparisons,O(n log n),1.18,0.9996,O(n log n),True
+merge,sorted,comparisons,O(n log n),1.16,0.9998,O(n log n),True
+merge,reversed,comparisons,O(n log n),1.15,0.9998,O(n log n),True
+merge,nearly_sorted,comparisons,O(n log n),1.22,0.9992,,
+merge,few_unique,comparisons,O(n log n),1.18,0.9996,,
+quick_median3,random,comparisons,O(n log n),1.12,0.9999,O(n log n),True
+quick_median3,sorted,comparisons,O(n log n),1.12,0.9999,O(n log n),True
+quick_median3,reversed,comparisons,O(n log n),1.12,0.9999,O(n log n),True
+quick_median3,nearly_sorted,comparisons,O(n log n),1.12,0.9998,,
+quick_median3,few_unique,comparisons,O(n log n),1.11,0.9999,,
+heap,random,comparisons,O(n log n),1.19,0.9995,O(n log n),True
+heap,sorted,comparisons,O(n log n),1.19,0.9995,O(n log n),True
+heap,reversed,comparisons,O(n log n),1.2,0.9995,O(n log n),True
+heap,nearly_sorted,comparisons,O(n log n),1.19,0.9995,,
+heap,few_unique,comparisons,O(n log n),1.18,0.9997,,
+timsort,random,comparisons,O(n log n),1.18,0.9996,O(n log n),True
+timsort,sorted,comparisons,O(n),1.0,1.0,O(n),True
+timsort,reversed,comparisons,O(n),1.0,0.9995,O(n),True
+timsort,nearly_sorted,comparisons,O(n),1.08,0.999,,
+timsort,few_unique,comparisons,O(n),1.07,0.9989,,
+counting,random,writes,O(n),1.0,1.0,O(n),True
+counting,sorted,writes,O(n),1.0,1.0,O(n),True
+counting,reversed,writes,O(n),1.0,1.0,O(n),True
+counting,nearly_sorted,writes,O(n),1.0,1.0,O(n),True
+counting,few_unique,writes,O(n),1.0,1.0,O(n),True
+radix,random,writes,O(n log n),1.12,0.9968,O(n log n),True
+radix,sorted,writes,O(n log n),1.12,0.9968,O(n log n),True
+radix,reversed,writes,O(n log n),1.12,0.9968,O(n log n),True
+radix,nearly_sorted,writes,O(n log n),1.12,0.9968,O(n log n),True
+radix,few_unique,writes,O(n),1.0,1.0,O(n),True
